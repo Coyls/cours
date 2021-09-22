@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="0" y="13.4" width="400" height="373.6" stroke="grey" stroke-width="2" fill="none" />
+  <circle cx="200" cy="200" r="100" stroke="black" stroke-width="2" fill="none" />
+  <circle cx="100" cy="200" r="100" stroke="red" stroke-width="2" fill="none" />
+  <circle cx="300" cy="200" r="100" stroke="blue" stroke-width="2" fill="none" />
+  <circle cx="250" cy="113.4" r="100" stroke="yellow" stroke-width="2" fill="none" />
+  <circle cx="250" cy="286.6" r="100" stroke="pink" stroke-width="2" fill="none" />
+  <circle cx="150" cy="113.4" r="100" stroke="green" stroke-width="2" fill="none" />
+  <circle cx="150" cy="286.6" r="100" stroke="grey" stroke-width="2" fill="none" />
+  <polygon stroke="black" stroke-width="2" fill="none" points="250,113.4 150,113.4  100,200   150,286.6 250,286.6 300,200 " />
+  
+
+</svg>
