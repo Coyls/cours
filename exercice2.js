@@ -1,11 +1,11 @@
 // EXERCICE 2
 
 let main = Array.from({ length: 1000 }, (_, i) => i + 1)
-let repaire = main
+let repaire = main.length
 let reverse = []
 let sort = []
 
-while (sort.length < repaire.length) {
+while (sort.length < repaire) {
 
     while (main.length > 1) {
         reverse.push(main.shift())

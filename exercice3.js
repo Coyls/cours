@@ -34,13 +34,38 @@ fs.readFile("./e5.csv", "utf-8", (err, data) => {
 
     recursive(root, root.id)
 
-    console.log(root)
-
-
-    fs.writeFile("./thing.json", JSON.stringify(root), function (err) {
+    // console.log(root)
+    /* fs.writeFile("./thing.json", JSON.stringify(root), function (err) {
         if (err) throw err;
         console.log('Fichier créé !');
-    });
+    }); */
+
+    const csvArray = []
+
+    const recursive2 = (root) => {
+
+        if (el.node.length === 0) {
+            const tmpRoot = []
+        }
+
+
+        root.node.forEach(el => {
+            // if (el.node.length === 0) {
+            csvArray.push(el.id)
+            // }
+            recursive2(el)
+        })
+
+    }
+
+    recursive2(root)
+
+
+
+
+
+
+    console.log('csvArray:', csvArray)
 
 
 
