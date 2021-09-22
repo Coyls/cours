@@ -1,0 +1,21 @@
+{
+  "name": "data-structure",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "exercice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coyls/cours.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coyls/cours/issues"
+  },
+  "homepage": "https://github.com/Coyls/cours#readme",
+  "description": ""
+}
